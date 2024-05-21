@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 165px;
+  gap: 560px;
+  &__left {
+    display: flex;
+  }
+  &__item {
+    display: flex;
+    gap: 40px;
+  }
+  &__link {
+    /* Pricing */
+    height: 18px;
+
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #fbfcfe;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  &__right {
+    display: flex;
+    gap: 25px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    &__left {
+      flex-direction: column;
+    }
+    &__item {
+      flex-direction: column;
+    }
+  }
+}

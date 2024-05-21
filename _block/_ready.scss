@@ -1,0 +1,90 @@
+.ready {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+
+  &__title {
+    /* Ready to start? */
+    width: 318px;
+    height: 56px;
+
+
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    letter-spacing: -0.369231px;
+
+    color: #36536b;
+  }
+  &__input {
+    padding-left: 25px;
+    position: relative;
+    background: #fbfcfe;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 25px;
+    width: 250px;
+    height: 28px;
+    border: none;
+    /* Enter email address */
+
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #36536b;
+  }
+  &__btn {
+    padding: 15px;
+    // padding-bottom: 25px;
+    margin-left: -45px;
+    position: absolute;
+    width: 145px;
+    height: 28px;
+    background-color: #ba4270;
+    border: none;
+    border-radius: 25px;
+    /* Schedule a Demo */
+
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 5px;
+    /* identical to box height */
+    letter-spacing: -0.115385px;
+
+    color: #fbfcfe;
+  }
+}
+@media only screen and (max-width: 420px)
+{
+  .ready
+  {
+    flex-direction: column;
+    text-align: center;
+    &__input
+    {
+      position: static;
+
+    }
+    &__right
+    {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    &__btn
+    {
+      position: static;
+      margin-left: 0px;
+      width: 280px;
+    }
+  }
+}

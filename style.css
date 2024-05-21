@@ -1,0 +1,702 @@
+.navbar {
+  padding-top: 30px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__link {
+  margin-right: 40px;
+  /* About */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.navbar__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__btn {
+  width: 175px;
+  height: 50px;
+  background-color: #ba4270;
+  border: none;
+  border-radius: 25px;
+  /* Schedule a Demo */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #fbfcfe;
+}
+.navbar__burger {
+  display: none;
+  flex-direction: column;
+}
+.navbar__hr {
+  width: 28px;
+  height: 3px;
+  background-color: #36536b;
+  border-radius: 5px;
+  border: none;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 420px) {
+  .navbar__list {
+    display: none;
+  }
+  .navbar__btn {
+    display: none;
+  }
+  .navbar__burger {
+    display: flex;
+  }
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 185px;
+  padding-bottom: 90px;
+}
+.intro__title {
+  /* Start building with */
+  width: 546px;
+  height: 220px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  letter-spacing: -0.553846px;
+  color: #36536b;
+}
+.intro__input {
+  padding-left: 25px;
+  position: relative;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 25px;
+  width: 250px;
+  height: 28px;
+  border: none;
+  /* Enter email address */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #36536b;
+}
+.intro__btn {
+  padding: 15px;
+  margin-left: -45px;
+  position: absolute;
+  width: 145px;
+  height: 28px;
+  background-color: #ba4270;
+  border: none;
+  border-radius: 25px;
+  /* Schedule a Demo */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 5px;
+  /* identical to box height */
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+}
+.intro__text {
+  /* Have any questions? */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #6c8294;
+}
+.intro__span {
+  /* Have any questions? */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #6c8294;
+}
+
+@media only screen and (max-width: 420px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .intro__title {
+    /* Start building with */
+    width: 327px;
+    height: 108px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+    text-align: center;
+    letter-spacing: -0.246154px;
+    color: #36536b;
+  }
+  .intro__input {
+    width: 327px;
+    height: 48px;
+    position: static;
+    margin-bottom: 15px;
+  }
+  .intro__btn {
+    width: 327px;
+    height: 48px;
+    position: static;
+    margin-left: 0px;
+  }
+}
+.easy {
+  padding: 100px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 125px;
+}
+.easy__left {
+  /* Group 13 */
+  background-color: #1b262f;
+  color: white;
+  border-radius: 8px;
+}
+.easy__top {
+  background-color: #2e3f4d;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 16px;
+}
+.easy .sircle:first-child {
+  /* Oval */
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ba4270;
+}
+.easy .sircle:nth-child(2) {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #527695;
+}
+.easy .sircle:last-child {
+  /* Oval */
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #36536b;
+}
+.easy #formacha {
+  width: 380px;
+  padding: 32px;
+}
+.easy__title {
+  width: 445px;
+  height: 56px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  letter-spacing: -0.369231px;
+  color: #36536b;
+  margin-bottom: 22px;
+}
+.easy__text {
+  width: 445px;
+  height: 84px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 187% */
+  color: #6c8294;
+}
+
+@media (max-width: 420px) {
+  .easy {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .easy #formacha {
+    width: 328px;
+    height: 209px;
+  }
+  .easy__title {
+    /* Easy to implement */
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: -0.276923px;
+    color: #36536b;
+  }
+  .easy__text {
+    /* Our API comes with j */
+    width: 328px;
+    height: 112px;
+    margin-left: 70px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+    text-align: center;
+    color: #6c8294;
+  }
+}
+.simple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 140px;
+}
+.simple__title {
+  /* Simple UI & UX */
+  width: 440px;
+  height: 55px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  color: #36536b;
+}
+.simple__text {
+  /* Our pre-built form i */
+  width: 440px;
+  height: 56px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 187% */
+  color: #6c8294;
+}
+.simple__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 420px) {
+  .simple {
+    flex-direction: column;
+  }
+  .simple__title {
+    /* Simple UI & UX */
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: -0.276923px;
+    color: #36536b;
+  }
+  .simple__text {
+    /* Our pre-built form i */
+    width: 328px;
+    height: 84px;
+    margin-left: 70px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+    text-align: center;
+    color: #6c8294;
+  }
+  .simple__img {
+    /* Group 7 */
+    width: 152px;
+    height: 290px;
+  }
+}
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 105px;
+  gap: 150px;
+}
+.work__title {
+  /* Who we work with */
+  width: 445px;
+  height: 56px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  letter-spacing: -0.369231px;
+  color: #fbfcfe;
+}
+.work__text {
+  /* Today, millions of p */
+  width: 445px;
+  height: 112px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 187% */
+  color: #fbfcfe;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.work__btn {
+  width: 130px;
+  height: 50px;
+  background: none;
+  border-radius: 25px;
+  /* About Us */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+}
+.work__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.work__cards__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.work__cards__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+@media only screen and (max-width: 420px) {
+  .work {
+    flex-direction: column;
+    text-align: center;
+  }
+  .work__right {
+    display: flex;
+    flex-direction: row;
+  }
+  .work__title {
+    /* Who we work with */
+    width: 327px;
+    height: 36px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+    text-align: center;
+    letter-spacing: -0.246154px;
+    color: #fbfcfe;
+  }
+  .work__text {
+    /* Today, millions of p */
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+    text-align: center;
+    color: #fbfcfe;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  .work__cards__top {
+    flex-direction: column;
+  }
+  .work__cards__bottom {
+    flex-direction: column;
+  }
+}
+.finans {
+  padding: 5px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.finans__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.finans__cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.finans__title {
+  /* Personal Finances */
+  width: 350px;
+  height: 25px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536b;
+}
+.finans__text {
+  /* Consolidate financia */
+  height: 100px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6c8294;
+}
+
+@media only screen and (max-width: 420px) {
+  .finans__cards {
+    flex-direction: column;
+  }
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 165px;
+  gap: 560px;
+}
+.footer__left {
+  display: flex;
+}
+.footer__item {
+  display: flex;
+  gap: 40px;
+}
+.footer__link {
+  /* Pricing */
+  height: 18px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #fbfcfe;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.footer__right {
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 420px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer__left {
+    flex-direction: column;
+  }
+  .footer__item {
+    flex-direction: column;
+  }
+}
+.ready {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+.ready__title {
+  /* Ready to start? */
+  width: 318px;
+  height: 56px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+.ready__input {
+  padding-left: 25px;
+  position: relative;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 25px;
+  width: 250px;
+  height: 28px;
+  border: none;
+  /* Enter email address */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #36536b;
+}
+.ready__btn {
+  padding: 15px;
+  margin-left: -45px;
+  position: absolute;
+  width: 145px;
+  height: 28px;
+  background-color: #ba4270;
+  border: none;
+  border-radius: 25px;
+  /* Schedule a Demo */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 5px;
+  /* identical to box height */
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+}
+
+@media only screen and (max-width: 420px) {
+  .ready {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ready__input {
+    position: static;
+  }
+  .ready__right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .ready__btn {
+    position: static;
+    margin-left: 0px;
+    width: 280px;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  background-color: #EDF3F8;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.wrapper {
+  width: 90%;
+}
+
+.workcontainer {
+  width: 100%;
+  background-color: #1B262F;
+  background-image: url(../img/work-bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.easycontainer {
+  width: 100%;
+  background-color: #EDF3F8;
+}
+
+.simplecontainer {
+  width: 100%;
+  background-color: #EDF3F8;
+  background-image: url(../img/simple-bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.finanscontainer {
+  width: 100%;
+  background-color: #EDF3F8;
+}
+
+.readycontainer {
+  width: 100%;
+  background-color: #EDF3F8;
+}
+
+footer {
+  width: 100%;
+  background-color: #1B262F;
+  background-image: url(../img/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}/*# sourceMappingURL=style.css.map */

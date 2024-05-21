@@ -1,0 +1,131 @@
+.easy {
+  padding: 100px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 125px;
+  &__left {
+    /* Group 13 */
+    background-color: #1b262f;
+    color: white;
+    border-radius: 8px;
+  }
+  &__top {
+    background-color: #2e3f4d;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding-left: 16px;
+  }
+  .sircle:first-child {
+    /* Oval */
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ba4270;
+  }
+  .sircle:nth-child(2) {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #527695;
+  }
+  .sircle:last-child {
+    /* Oval */
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #36536b;
+  }
+  #formacha {
+    width: 380px;
+    padding: 32px;
+  }
+  &__right {
+  }
+  &__title {
+    width: 445px;
+    height: 56px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    letter-spacing: -0.369231px;
+
+    color: #36536b;
+    margin-bottom: 22px;
+  }
+  &__text {
+    width: 445px;
+    height: 84px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+
+    color: #6c8294;
+  }
+}
+
+@media (max-width: 420px) {
+  .easy {
+    #formacha
+    {
+      width: 328px;
+      height: 209px;
+    }
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    &__title {
+      /* Easy to implement */
+
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 36px;
+      /* identical to box height, or 100% */
+      text-align: center;
+      letter-spacing: -0.276923px;
+
+      color: #36536b;
+    }
+    &__text {
+      /* Our API comes with j */
+      width: 328px;
+      height: 112px;
+      margin-left: 70px;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+      /* or 187% */
+      text-align: center;
+
+      color: #6c8294;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .easy {
+    flex-direction: column;
+    &__left {
+      margin-top: 100px;
+    }
+    &__title {
+      margin-top: 48px;
+    }
+    &__text {
+      margin-top: 24px;
+    }
+  }
+}
