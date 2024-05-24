@@ -63,28 +63,6 @@
     color: #fbfcfe;
   }
 }
-@media only screen and (max-width: 420px)
-{
-  .ready
-  {
-    flex-direction: column;
-    text-align: center;
-    &__input
-    {
-      position: static;
-
-    }
-    &__right
-    {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    &__btn
-    {
-      position: static;
-      margin-left: 0px;
-      width: 280px;
-    }
-  }
+@media only screen {  
+  
 }

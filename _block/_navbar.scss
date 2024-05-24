@@ -55,20 +55,10 @@
     margin-top: -5px;
   }
 }
-@media only screen and (max-width: 420px) {
-  .navbar {
-    &__list {
-      display: none;
-    }
-    &__btn {
-      display: none;
-    }
-    &__burger {
-      display: flex;
-    }
-  }
-}
-@media only screen and (max-width: 700px)
+
+
+
+@media only screen and (max-width: 768px)
 {
   .navbar
   {
